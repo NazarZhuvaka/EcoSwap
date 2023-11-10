@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSwap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <div class="header__logo">
+            <a href="/" class="header_logo_img">
+              <img src="./images/logo.svg" alt="EcoSwap" />
+            </a>
+            <a href="/" class="header_logo_title">EcoSwap</a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__ul header__ul_active" id="header__ul">
+              <li class="header__li"><a href="/" class="header__a active">Home</a></li>
+              <li class="header__li">
+                <a href="/" class="header__a">Listings</a>
+              </li>
+              <li class="header__li">
+                <a href="/" class="header__a">About</a>
+              </li>
+              <li class="header__li">
+                <a href="/" class="header__a">Support</a>
+              </li>
+              
+            </ul>
+            <span class=" menu material-icons" onclick="navToggle()">
+              menu
+              </span>
+
+          </nav>
+          <div class="header__btn">
+            <a href="/" class="btn btn_link">Log in</a>
+            <a href="/" class="btn btn_primary">Get Started</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="main-section">
+        <div class="container main-section__container">
+          <h1 class="main-section_title">Join the Green</h1>
+          <p class="main-section_desc">Revolution with EcoSwap</p>
+          <p class="main-section_text">
+            Swap items, reduce waste, and embrace a greener lifestyle.
+          </p>
+          <p class="main-section_slogan">Together, We make a difference</p>
+          <div class="main__btn">
+            <a href="/" class="btn main_btn_primary">Get Started</a>
+            <a href="/" class="btn main_btn_link">Learn more</a>
+          </div>
+        </div>
+        <div class="main-section_img">
+          <img src="images/communiti-clouds-bottom.svg" alt="clouds" />
+        </div>
+      </section>
+
+      <section class="companies-section">
+        <div class="container companies-section__container">
+          <p class="companies-section_title">Trusted by these companies</p>
+          <div class="companies-section-img">
+            <a href="/">
+              <img src="images/treehouse.svg" alt="" />
+            </a>
+            <a href="/">
+              <img src="images/outreach.svg" alt="" />
+            </a>
+            <a href="/">
+              <img src="images/google.svg" alt="" />
+            </a>
+            <a href="/">
+              <img src="images/tesla.svg" alt="" />
+            </a>
+            <a href="/">
+              <img src="images/drible.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-section">
+        <div class="container product-section__container">
+          <div class="product-section_header">
+            <p class="product-section_header_title">Explore top listing</p>
+            <a href="/" class="product-section_header_btn">
+              Explore Listings
+              <img src="images/btn-link.svg" alt="" />
+            </a>
+          </div>
+          <div class="product-section_images">
+            <div class="clothing-img product-section_images">
+              <img src="images/clothing.svg" alt="" />
+              <div class="clothing-img-desc">
+                <p class="product_text product-section_images">Clothings</p>
+                <a href="/">
+                  <img src="images/link.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="furnitures-img product-section_images">
+              <img src="images/furnitures.svg" alt="" />
+              <div class="furnitures-img-desc">
+                <p class="product_text product-section_images">Furnitures</p>
+                <a href="/">
+                  <img src="images/link.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="books-img product-section_images">
+              <img src="images/books.svg" alt="" />
+              <div class="books-img-desc">
+                <p class="product_text product-section_images">Books</p>
+                <a href="/">
+                  <img src="images/link.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-section-line-second"></div>
+        </div>
+      </section>
+
+      <section class="step-section">
+        <div class="container step-section__container">
+          <div class="step-section_header">
+            <p class="step-section_header_title">How it works</p>
+            <p class="step-section_header_desc">Embark on Your Green Journey</p>
+          </div>
+          <div class="step-section_desc">
+            <div class="step-section_list">
+              <a href="/" class="step-section_list_img">
+                <img src="images/first-smile.svg" alt="" />
+              </a>
+              <p class="step-section_first_title">Create Your Profile</p>
+              <p class="step-section_second_title">
+                Rooted in Green Living: Join EcoSwap's Eco-Conscious Community
+              </p>
+            </div>
+            <div class="step-section_list">
+              <a href="/" class="step-section_list_img">
+                <img src="images/second-smile.svg" alt="" />
+              </a>
+
+              <p class="step-section_first_title">Find Your Match</p>
+              <p class="step-section_second_title">
+                Discover, Swap, Thrive: Sustainable Treasures Await on EcoSwap
+              </p>
+            </div>
+            <div class="step-section_list">
+              <a href="/" class="step-section_list_img">
+                <img src="images/third-smile.svg" alt="" />
+              </a>
+              <p class="step-section_first_title">Initiate a Swap</p>
+              <p class="step-section_second_title">
+                Connect, Swap, Sustain: Your EcoSwap Adventure Begins Here
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="community-section">
+        <div class="communiti-section_img">
+          <img src="images/communiti-clouds-top_2.svg" alt="clouds" />
+        </div>
+        <div class="container community-section__container">
+          <div class="companies-section_describe">
+            <p class="community-section_title">Join the community</p>
+            <div class="community-section_forms">
+              <p class="community-section_forms_text">
+                Subscribe to the newsletter
+              </p>
+              <label class="community-section_forms_label">
+                <input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  class="community-section_forms_label-input"
+                />
+                <button type="submit" class="communiti-section_btn">
+                  Subscribe
+                  <div class="communiti-section_btn_link">
+                    <img src="images/arrow-communiti.svg" alt="" />
+                  </div>
+                </button>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="communiti-section_img">
+          <img src="images/communiti-clouds-bottom.svg" alt="clouds" />
+        </div>
+      </section>
+
+      <section class="question-section">
+        <div class="container question-section__container">
+          <p class="question-section_title">Frequently Asked Questions</p>
+
+          <div class="question-text-container">
+            <div class="question-text_first-container">
+              <div class="first-container_header">
+                <p class="question-text_title question-container">
+                  How does EcoSwap work?
+                </p>
+                <span class="first-section_header_img">
+                  <img src="images/Vector-question.svg" alt="" />
+                </span>
+              </div>
+              <p class="first-section_main-text">
+                EcoSwap is a platform that allows users to swap eco-friendly and
+                sustainable items with others. Simply create a profile, browse
+                listings, initiate a swap, and complete the exchange in person.
+                It's a convenient way to live a more sustainable lifestyle.
+              </p>
+              <div class="question-container_line"></div>
+            </div>
+            <div class="question-text_main-container">
+              <div class="question-container_main-text">
+                <p class="question-text_title_main question-container">
+                  Is EcoSwap only for individuals, or can businesses
+                  participate?
+                </p>
+                <span class="first-section_header_img">
+                  <img src="images/plus.svg" alt="" />
+                </span>
+                
+              </div>
+              <div class="question-container_line"></div>
+            </div>
+            <div class="question-text_main-container">
+              <div class="question-container_main-text">
+                <p class="question-text_title_main question-container">
+                  How do I ensure the quality of items being swapped?
+                </p>
+                <span class="first-section_header_img">
+                  <img src="images/plus.svg" alt="" />
+                </span>
+              </div>
+              <div class="question-container_line"></div>
+            </div>
+            <div class="question-text_main-container">
+              <div class="question-container_main-text">
+                <p class="question-text_title_main question-container">
+                  How do I communicate with other users on EcoSwap?
+                </p>
+                <span class="first-section_header_img">
+                  <img src="images/plus.svg" alt="" />
+                </span>
+              </div>
+              <div class="question-container_line"></div>
+            </div>
+            <div class="question-text_main-container">
+              <div class="question-container_main-text">
+                <p class="question-text_title_main question-container">
+                  Is there a fee for using EcoSwap?
+                </p>
+                <span class="first-section_header_img">
+                  <img src="images/plus.svg" alt="" />
+                </span>
+              </div>
+              <div class="question-container_line"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section">
+        <div class="story-section_img">
+          <img src="images/grey-clouds-top.svg" alt="clouds" />
+        </div>
+        <div class="container story-section_container">
+          <p class="story-section_title">Start Swapping for a</p>
+          <p class="story-section_desc">Greener World</p>
+          <div class="story__btn">
+            <a href="/" class="btn story_btn_primary">Get Started</a>
+          </div>
+        </div>
+        <div class="story-section_img">
+          <img src="images/grey-clouds-bottom.svg" alt="clouds" />
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer_container">
+          <div class="footer_logo">
+            <div class="footer_eco">
+              <a href="/" class="header_logo_img">
+                <img src="./images/logo.svg" alt="EcoSwap" />
+              </a>
+              <p class="header_logo_title">EcoSwap</p>
+            </div>
+      
+            <div class="footer_logo_decs">
+              <p> Copyright </p>
+              <p> © </p>
+              <div id="year-clock"></div>
+              <p> Frapisky  </p>
+              <p> design.  </p>
+            </div>
+            
+    
+            <p class="footer_logo_text">
+              All Rights reserved
+            </p>
+          </div>
+          <div class="footer_navigations">
+           <div class="footer_browser">
+            <p class="footer_nav_title">Browse</p>
+            <nav class="footer_nav">
+              <ul class="nav_ul">
+                <li class="ul__li">
+                  <a href="" class="ul__link">Clothings</a>
+                </li>
+                <li class="ul__li">
+                  <a href="" class="ul__link">Electronics</a>
+                </li>
+                <li class="ul__li">
+                  <a href="" class="ul__link">Books</a>
+                </li>
+                <li class="ul__li">
+                  <a href="" class="ul__link">Furnitures</a>
+                </li>
+                <li class="ul__li">
+                  <a href="" class="ul__link">Decorations</a>
+                </li>
+                <li class="ul__li">
+                  <a href="" class="ul__link">Sports Equipment</a>
+                </li>
+              </ul>
+            </nav>
+           </div>
+            <div class="footer_general">
+              <p class="footer_nav_title">General</p>
+              <nav class="footer_nav">
+                <ul class="nav_ul">
+                  <li class="ul__li">
+                    <a href="" class="ul__link">Careers</a>
+                  </li>
+                  <li class="ul__li">
+                    <a href="" class="ul__link">About</a>
+                  </li>
+                  <li class="ul__li">
+                    <a href="" class="ul__link">Twitter</a>
+                  </li>
+                  <li class="ul__li">
+                    <a href="" class="ul__link">LinkedIn</a>
+                  </li>
+                </ul>
+              </nav>
+          </div>
+          <div class="footer_support">
+            <p class="footer_nav_title">Support</p>
+            <nav class="footer_nav">
+              <ul class="nav_ul">
+                <li class="ul__li">
+                  <a href="" class="ul__link">Help Center</a>
+                </li>
+                <li class="ul__li">
+                  <a href="" class="ul__link">Status</a>
+                </li>
+                <li class="ul__li">
+                  <a href="" class="ul__link">support@ecoswap.com</a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+        <div class="footer_legal">
+          <p class="footer_nav_title">Legal</p>
+          <nav class="footer_nav">
+            <ul class="nav_ul">
+              <li class="ul__li">
+                <a href="" class="ul__link">Terms of Service</a>
+              </li>
+              <li class="ul__li">
+                <a href="" class="ul__link">Privacy policy</a>
+              </li>
+              <li class="ul__li">
+                <a href="" class="ul__link">Code of Conduct</a>
+              </li>
+            </ul>
+          </nav>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
